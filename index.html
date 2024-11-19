@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0;
+            background-color: #f4f4f4; 
+        }
+        .authorization {
+            width: 400px; 
+            margin: 0 auto; 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            border-radius: 5px;
+            background-color: white; 
+        }
+    </style>
+</head>
+<body>
+    <div class="authorization">
+        <h2 style="text-align:center;">Авторизация</h2>
+        <input type="text" name="username" placeholder="Логин" style="width:94%; padding:10px; margin-bottom:10px; border:1px solid #ccc; border-radius:3px;">
+        <input type="password" name="password" placeholder="Пароль" style="width:94%; padding:10px; margin-bottom:10px; border:1px solid #ccc; border-radius:3px;">
+        <form action="home.html">
+            <button style="width:100%; padding:10px; background-color:#4CAF50; color:white; border:none; border-radius:100px; cursor:pointer;">Войти</button>
+        </form>
+        <a href="#" style="color:#333; display:block; text-align:center; padding:10px">Забыли пароль?</a>
+        <a href='reg.html' style="color:#333; display:block; text-align:center;">Зарегистрироваться</a>
+    </div>
+</body>
+</html>

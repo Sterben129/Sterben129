@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Регистрация</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0;
+            background-color: #f4f4f4; 
+        }
+        .registration {
+            width: 400px; 
+            margin: 0 auto; 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            border-radius: 5px;
+            background-color: white; 
+        }
+    </style>
+</head>
+<body>
+    <div class="registration" style="width:400px; margin:0 auto; border:1px solid #ccc; padding:20px; border-radius:5px;">
+        <h2 style="text-align:center;">Регистрация</h2>
+        <p><input type="text" id="username" name="username" placeholder="Логин" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <p><input type="password" id="password" name="password" placeholder="Пароль" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <p><input type="password" id="password2" name="password2" placeholder="Подтверждение" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <p><input type="email" id="email" name="email" placeholder="Е-Mail" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <p><input type="tel" id="phone" name="number" placeholder="Телефон" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <p><input type="text" id="fio" name="fio" placeholder="ФИО" style="width:94%; padding:10px; margin-bottom:1px; border:1px solid #ccc; border-radius:3px;"></p>
+        <form action="authorization.html">
+            <button style="width:100%; padding:10px; background-color:#4CAF50; color:white; border:none; border-radius:100px; cursor:pointer;">Зарегистрироваться</button>
+        </form>
+        <br>
+        <p><a href="index.html" style="color:#333; display:block; text-align:center; padding:0px">Есть аккаунт?</a></p>
+    </div>
+</body>
